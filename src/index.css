@@ -32,8 +32,19 @@ body {
 .survey-form > h1 {
   text-align: center;
 }
+
+.bold {
+  font-weight: bold;
+  color: red;
+}
+
+label{
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
 .survey-form > p {
-  margin-bottom: 0;
+  margin-bottom: 0; 
 }
 .form-row {
   font-size: 15px;

@@ -134,7 +134,7 @@ export default function Survey() {
                 <input className='form-row search'  onChange={e => (
                     searchSong(e.target.value)
                 )} placeholder="Select Your Favourite Track" />
-                { error && <span>select minimun 5 songs</span>}
+                { error && <span className="bold">select minimun 5 songs</span>}
                 {search.map((item,index)=> (
                     <div className='song' key={index} onClick={() => addTrack(item)}>
                         <img className="song-img" src={item.album.images[2].url} />
