@@ -133,7 +133,7 @@ export default function Survey() {
                 <label htmlFor='tracks'> Please select minimun 5 songs maximun 20 songs:</label>
                 <input className='form-row search'  onChange={e => (
                     searchSong(e.target.value)
-                )} placeholder="Please Search and Select Your Favourite Track" />
+                )} placeholder="Search & Select Your Songs" />
                 { error && <span className="bold">select minimun 5 songs</span>}
                 {search.map((item,index)=> (
                     <div className='song' key={index} onClick={() => addTrack(item)}>
