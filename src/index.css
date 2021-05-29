@@ -1,0 +1,94 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins-Regular";
+  font-size: 15px;
+  background-color: #6643eb;
+  margin: 0;
+}
+:focus {
+  outline: none;
+}
+.container {
+  max-width: 600px;
+  height: 100%;
+  margin: 10px auto;
+  display: flex;
+}
+.survey-form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  min-height: 570px;
+  background: #fff;
+  padding: 75px 65px;
+  text-align: left;
+  border-radius: 10px;
+}
+.survey-form > h1 {
+  text-align: center;
+}
+.survey-form > p {
+  margin-bottom: 0;
+}
+.form-row {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 30px;
+  border: 1px solid #6643eb;
+  border-radius: 2px;
+  padding: 8px;
+}
+button {
+  background-color: #6643eb;
+  padding: 8px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 15px;
+  border: 0px;
+}
+button:hover {
+  background-color: #5512e1;
+}
+.search {
+  margin-bottom: 0;
+}
+.submit {
+  margin-top: 20px;
+}
+.song {
+  display: flex;
+  margin: 5px 0px;
+  align-items: center;
+  padding: 0px 8px;
+  border: 1px solid black;
+}
+.song-img {
+  height: 30px;
+  width: 30px;
+  margin: 0px 4px;
+}
+
+.submit-page {
+  font-size: 18px;
+  background-color: white;
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    font-size: 20px;
+  }
+  button {
+    font-size: 20px;
+  }
+  .form-row {
+    font-size: 20px;
+  }
+  .submit-page {
+    font-size: 20px;
+  }
+}
